@@ -182,8 +182,32 @@ button {
 }
 
 .projects-card {
-	background-color: red;
+    border: 1px solid black;
 	min-height: 150px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.projects-card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.projects-card-content {
+    font-size: 12px;
+}
+
+.projects-card-img {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.projects-card-img img {
+    height: 20px;
 }
 
 /* main side */
