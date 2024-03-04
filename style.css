@@ -66,9 +66,11 @@
 
 .header {
 	background-color: white;
+    z-index: 999;
 	grid-row: 1 / 2;
 	grid-column: 2 / 3;
 	padding: 20px 40px;
+    box-shadow: 1px 1px 2px 2px #676767a1;
 }
 
 .header-container {
