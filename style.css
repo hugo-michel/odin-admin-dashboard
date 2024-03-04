@@ -183,12 +183,12 @@ button {
 }
 
 .projects-card {
-	border: 1px solid black;
 	min-height: 150px;
 	padding: 30px 20px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+    background-color: white;
 }
 
 .projects-card-text {
@@ -227,11 +227,15 @@ button {
 }
 
 .announcements-card-container {
-	border: 1px solid black;
+    background-color: white;
 	padding: 30px 20px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+
+.announcements-card-title {
+    font-size: 12px;
 }
 
 .announcements-card-content {
@@ -247,7 +251,7 @@ button {
 }
 
 .trending-card-container {
-	border: 1px solid black;
+    background-color: white;
 	padding: 30px 20px;
 	display: flex;
 	flex-direction: column;
@@ -269,4 +273,22 @@ button {
 	font-size: 12px;
 	display: flex;
 	flex-direction: column;
+}
+
+/* typo, style etc */
+
+.bold-text {
+    font-weight: bold;
+}
+
+.trending-card-container,
+.announcements-card-container, 
+.projects-card {
+    border-radius: 5px;
+    border: 1px solid #E5E7EB;
+    box-shadow: 1px 1px 2px 2px #676767a1
+}
+
+.projects-card {
+    border-left: 8px solid #E21A12;
 }
