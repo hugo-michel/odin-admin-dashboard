@@ -325,3 +325,7 @@ button:hover {
 .projects-card {
 	border-left: 8px solid #e21a12;
 }
+
+.silver {
+    color: #5f5e5e;
+}
