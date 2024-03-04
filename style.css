@@ -211,6 +211,7 @@ button {
 }
 
 /* main side */
+/* announcement */
 
 .main-side {
 	display: grid;
@@ -239,13 +240,36 @@ button {
     font-size: 10px;
 }
 
+/* trending */
+
 .trending {
 	display: grid;
 	grid-template-rows: min-content 1fr;
 	gap: 15px;
 }
 
+.trending-card-container {
+	border: 1px solid black;
+    padding: 30px 20px;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .trending-card {
-	display: grid;
-	background-color: orange;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.trending-card img {
+    height: 40px;
+    border-radius: 20px;
+}
+
+.trending-card-text {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
 }
