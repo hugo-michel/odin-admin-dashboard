@@ -156,14 +156,23 @@ button {
 .main-container {
 	display: grid;
 	grid-template-columns: 3fr 1fr;
-	gap: 5px;
+    grid-template-rows: 1fr;
+	gap: 15px;
+    /* min-height: 100%; */
 }
 /* projects */
 
-.projects {
+/* .projects {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	gap: 5px;
+} */
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content repeat(3, 1fr);
+    gap: 15px;
 }
 
 .projects > p {
@@ -172,19 +181,20 @@ button {
 
 .projects-card {
 	background-color: red;
-	height: 200px;
+	height: 150px;
 }
 
 /* main side */
 
 .main-side {
 	display: grid;
+    gap: 25px;
 }
 
 .announcements {
 	display: grid;
 	grid-template-rows: min-content 1fr;
-	gap: 5px;
+	gap: 15px;
 }
 
 .announcements-card {
@@ -195,6 +205,7 @@ button {
 .trending {
 	display: grid;
 	grid-template-rows: min-content 1fr;
+    gap: 15px;
 }
 
 .trending-card {
