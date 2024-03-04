@@ -126,7 +126,8 @@ input {
 }
 
 .header-bot-right {
-	justify-content: space-between;
+	justify-content: flex-end;
+    gap: 20px;
 	flex-grow: 1;
 }
 
@@ -154,12 +155,22 @@ input {
 }
 
 button {
-	background-color: blue;
+	background-color: #1992D4;
 	color: white;
-	padding: 5px 20px;
+    font-weight: bold;
+	padding: 10px 30px;
+    border: 1px solid white;
 	border-radius: 20px;
 	border: none;
 	outline: none;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+button:hover {
+    color: #1992D4;
+    background-color: white;
+    outline: 1px solid #1992D4;
 }
 
 /* main */
