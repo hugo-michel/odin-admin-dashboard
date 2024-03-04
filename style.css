@@ -66,11 +66,11 @@
 
 .header {
 	background-color: white;
-    z-index: 999;
+	z-index: 999;
 	grid-row: 1 / 2;
 	grid-column: 2 / 3;
 	padding: 20px 40px;
-    box-shadow: 1px 1px 2px 2px #676767a1;
+	box-shadow: 1px 1px 2px 2px #676767a1;
 }
 
 .header-container {
@@ -129,7 +129,7 @@ input {
 
 .header-bot-right {
 	justify-content: flex-end;
-    gap: 20px;
+	gap: 20px;
 	flex-grow: 1;
 }
 
@@ -157,22 +157,22 @@ input {
 }
 
 button {
-	background-color: #1992D4;
+	background-color: #1992d4;
 	color: white;
-    font-weight: bold;
+	font-weight: bold;
 	padding: 10px 30px;
-    border: 1px solid white;
+	border: 1px solid white;
 	border-radius: 20px;
 	border: none;
 	outline: none;
-    cursor: pointer;
-    transition: all 0.5s ease-in-out;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
 }
 
 button:hover {
-    color: #1992D4;
-    background-color: white;
-    outline: 1px solid #1992D4;
+	color: #1992d4;
+	background-color: white;
+	outline: 1px solid #1992d4;
 }
 
 /* main */
@@ -289,8 +289,9 @@ button:hover {
 
 .trending-card {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: flex-start;
 	align-items: center;
+	gap: 10%;
 }
 
 .trending-card img {
@@ -327,5 +328,5 @@ button:hover {
 }
 
 .silver {
-    color: #5f5e5e;
+	color: #5f5e5e;
 }
