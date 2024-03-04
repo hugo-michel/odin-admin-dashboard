@@ -215,17 +215,28 @@ button {
 .main-side {
 	display: grid;
 	gap: 25px;
+    grid-template-rows: 1fr 1fr;
 }
 
 .announcements {
 	display: grid;
 	grid-template-rows: min-content 1fr;
 	gap: 15px;
+
 }
 
-.announcements-card {
-	display: grid;
-	background-color: yellow;
+.announcements-card-container {
+    border: 1px solid black;
+    padding: 30px 20px;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.announcements-card-content {
+    font-size: 10px;
 }
 
 .trending {
